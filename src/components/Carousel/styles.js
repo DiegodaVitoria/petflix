@@ -5,7 +5,7 @@ export const Title = styled.h3`
   font-weight: normal;
   font-size: 35px;
   line-height: 1;
-  margin-bottom: 16px;
+  margin-bottom: -16px;
   display: inline-block;
   padding: 20px;
   background: red;
@@ -36,7 +36,7 @@ export const ExtraLink = styled.a`
 export const VideoCardList = styled.ul`
   margin: 0;
   padding-left: 0;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
   list-style: none;
   display: flex;
   overflow-x: auto;
